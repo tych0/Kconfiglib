@@ -3409,7 +3409,7 @@ _get_keyword = \
    "def_tristate": T_DEF_TRISTATE, "string": T_STRING, "select": T_SELECT,
    "range": T_RANGE, "option": T_OPTION, "allnoconfig_y": T_ALLNOCONFIG_Y,
    "env": T_ENV, "defconfig_list": T_DEFCONFIG_LIST, "modules": T_MODULES,
-   "visible": T_VISIBLE}.get
+   "visible": T_VISIBLE, "imply": T_SELECT}.get
 
 # Strings to use for True and False
 BOOL_STR = {False: "false", True: "true"}
